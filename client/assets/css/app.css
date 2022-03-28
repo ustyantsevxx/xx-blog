@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply selection:bg-black  selection:text-white;
+}
+
+#__next {
+  @apply h-full w-full;
+}
+
+body {
+  @apply bg-gray-50;
+  font-family: 'Inter', sans-serif;
+}
